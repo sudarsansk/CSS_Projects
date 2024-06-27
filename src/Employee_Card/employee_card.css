@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 70rem;
+  margin: 0 auto;
+}
+
+img {
+  border: 3px double black;
+  border-radius: 50%;
+}
+
+.container {
+  border: 1px solid black;
+  width: 75rem;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  a {
+    color: gray;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 4.8rem;
+  margin: 5.2rem 0rem;
+}
+
+h2 {
+  background-color: #007cc3;
+  text-align: center;
+  font-size: 3.6rem;
+  color: white;
+}
+.card {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  height: 30rem;
+
+  .employee_name {
+    font-size: 3.2rem;
+    color: #007cc3;
+  }
+
+  .description {
+    font-size: 1.6rem;
+    color: gray;
+  }
+}
+
+.employee-container {
+  display: flex;
+  gap: 1rem;
+}
